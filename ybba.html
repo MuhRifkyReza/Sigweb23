@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sigweb 23 - Muhammad Rifky Reza </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section id="banner"> 
+            <img src="image/logo.png" class="logo">
+            <div class="banner-text">
+                <h1> Welcome! </h1>
+                <p> This page was made to host the result of weekly task in subject Web-based GIS <br> for Muhammad Rifky Reza (NIM: 20/456160/TK/50290)</p>
+                <div class="banner-btn">
+                    <a href="#"> Weekly Task </a>
+                    <a href="#"> My GitHub </a>
+                </div>
+            </div>
+        </section>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#"> Home </a></li>
+                <li><a href="#"> Syllabus </a></li>
+                <li><a href="#"> Say Hi! </a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menu-btn">
+        <img src="image/plus-32.png" id="menu">
+    </div>
+
+    <section id="feature">
+        <div class="title-text">
+            <h1> Weekly Recap! </h1>
+            <p> Click to see my work every week </p>
+        </div>
+        <div class="card card1">
+            <h5> <a href="msatu.html"> M2 </a></h5>
+            <p> HTML and CSS <br> 3 tasks </p>
+        </div>
+        <div class="card card2">
+            <h5> M3 </h5>
+            <p> Javascript as Client-side Scripting</p>
+        </div>
+        <div class="card card3">
+            <h5> M4 </h5>
+            <p> Bootsrap Framework </p>
+        </div>
+    </section>
+
+    <script>
+        var menuBtn = document.getElementById("menu-btn")
+        var navBar = document.getElementById("navbar")
+        var menu = document.getElementById("menu")
+
+        menuBtn.onclick = function(){
+            if(navBar.style.right == "-250px"){
+                navBar.style.right = "0";
+            }
+            else{
+                navBar.style.right="-250px";
+            }
+        }
+    </script>
+    </body>
+</html>
